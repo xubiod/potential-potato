@@ -15,17 +15,21 @@
         <a style="position: fixed; top: 4px; right: 4px; background-color: #222; padding: 8px;" href="#" onclick="generate()" id="generated">please-wait</a>
         <br>
         <div style="position: fixed; top: 48px; right: 4px; background-color: #222; padding: 4px; text-align: right;">
+            <input type="checkbox" id="before" onchange="firstload()">add prefix</input><br>
+            <input type="checkbox" id="append" onchange="firstload()">add append</input>
+            <br>
             <a href="#" style="font-size: 12px;" onclick="generate_spam(10)">make 10</a><br>
             <a href="#" style="font-size: 12px;" onclick="generate_spam(25)">make 25</a><br>
             <a href="#" style="font-size: 12px;" onclick="generate_spam(50)">make 50</a><br>
             <a href="#" style="font-size: 12px;" onclick="generate_spam(100)">make 100</a><br>
-            
-            <a href="#" style="font-size: 12px;" id="genAll" onclick="generate_spam(firstlevel.length * secondlevel.length)">make (unlikely, lags)</a>
+            <a href="#" style="font-size: 12px;" onclick="generate_spam(250)">make 250</a><br>
+            <a href="#" style="font-size: 12px;" onclick="generate_spam(500)">make 500</a><br>
+            <a href="#" style="font-size: 12px;" onclick="generate_spam(prompt('amount (please note higher numbers can lag or even crash your browser)'))">make any</a><br>
         </div>
         <br>
         <br>
         <h2 id="counter">stored</h2>
-        <div id="old"></div>
+        <div style="width: 80%; position:absolute; left: 10%; z-index:-4096;" id="old"></div>
     </div>
 </body>
 

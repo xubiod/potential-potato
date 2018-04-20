@@ -12,7 +12,7 @@ var firstlevel = [
     "obj-c", "expert", "c", "rust", "cpp", "node-js",
     "tcp", "udp", "minecraft", "java", "lua", "excessive",
     "sad", "happy", "unity", "gamemaker", "interactive", "sleepy",
-    "murderous", "grumpy", "keymash", "random"
+    "murderous", "grumpy", "keymash", "random","swift","applescript","ios"
 ];
 
 var secondlevel = [

@@ -19,7 +19,7 @@ var firstlevel = [
     "awesome", "php", "sql", "mysql", "pug", "postcss", "xml", "json", "offline",
     "crazy", "wacky","colorful","rest","linux","apache2","imageboard",
     "video", "macos","windows","kernel","tubular","shell","command",
-    "voice"
+    "voice", "method","class"
 ];
 
 var secondlevel = [

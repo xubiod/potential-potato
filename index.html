@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="index.css">
+    <script src="script.js"></script>
+</head>
+
+<body onload="generate();firstload();">
+    <div>
+        <h1 style="position: fixed; top: 4px; left: 4px; background-color: #444; padding: 8px;">(bad) fake repo name generator<sub><sub id="amount-can"></sub></sub>
+        </h1>
+        <br>
+        <br>
+        <a style="position: fixed; top: 4px; right: 4px; background-color: #444; padding: 8px;" href="#" onclick="generate()" id="generated"></a>
+        <br>
+        <a href="#" style="font-size: 12px; position: fixed; top: 48px; right: 4px; background-color: #444; padding: 4px;" onclick="generate_spam(50)">make 50</a><br>
+        <a href="#" style="font-size: 12px; position: fixed; top: 64px; right: 4px; background-color: #444; padding: 4px;" onclick="generate_spam(firstlevel.length * secondlevel.length)">make statistically every combo (unlikely, lags)</a>
+        <br>
+        <br>
+        <h2>stored</h2>
+        <div id="old"></div>
+    </div>
+</body>
+
+</html>

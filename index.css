@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono');
+html {
+    background-color: #444;
+    color: #eee;
+    font-family: 'Ubuntu Mono', monospace;
+    height: 100vh;
+}
+
+div {
+    text-align: center;
+}
+
+a,
+a:hover,
+a:active,
+a:link {
+    color: #eee;
+    font-size: 24px;
+}

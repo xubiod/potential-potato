@@ -14,8 +14,14 @@
         <br>
         <a style="position: fixed; top: 4px; right: 4px; background-color: #222; padding: 8px;" href="#" onclick="generate()" id="generated">please-wait</a>
         <br>
-        <a href="#" style="font-size: 12px; position: fixed; top: 48px; right: 4px; background-color: #222; padding: 4px;" onclick="generate_spam(50)">make 50</a><br>
-        <a href="#" style="font-size: 12px; position: fixed; top: 64px; right: 4px; background-color: #222; padding: 4px;" onclick="generate_spam(firstlevel.length * secondlevel.length)">make statistically every combo (unlikely, lags)</a>
+        <div style="font-size: 12px; position: fixed; top: 48px; right: 4px; background-color: #222; padding: 4px;">
+            <a href="#" onclick="generate_spam(10)">make 10</a><br>
+            <a href="#" onclick="generate_spam(25)">make 25</a><br>
+            <a href="#" onclick="generate_spam(50)">make 50</a><br>
+            <a href="#" onclick="generate_spam(100)">make 100</a><br>
+            
+            <a href="#" onclick="generate_spam(firstlevel.length * secondlevel.length)">make statistically every combo (unlikely, lags)</a>
+        </div>
         <br>
         <br>
         <h2 id="counter">stored</h2>

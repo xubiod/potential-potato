@@ -71,4 +71,5 @@ function generate_spam(amt) {
 
 function firstload() {
     document.getElementById("amount-can").innerHTML = "(" + (firstlevel.length * secondlevel.length) + " possibilites)";
+    document.getElementById("genAll").innerHTML = "make " + (firstlevel.length * secondlevel.length) + " (lags)";
 }

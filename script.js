@@ -13,7 +13,10 @@ var firstlevel = [
     "tcp", "udp", "minecraft", "java", "lua", "excessive",
     "sad", "happy", "unity", "gamemaker", "interactive", "sleepy",
     "murderous", "grumpy", "keymash", "random","swift","applescript","ios",
-    "awesome", "php", "sql", "mysql"
+    "awesome", "php", "sql", "mysql", "pug", "postcss", "xml", "json", "offline",
+    "crazy", "wacky","colorful","rest","linux","apache2","imageboard",
+    "video", "macos","windows","kernel","tubular","shell","command",
+    "voice"
 ];
 
 var secondlevel = [
@@ -30,7 +33,12 @@ var secondlevel = [
     "journey", "royale", "exploit", "guide",
     "ebook", "tutorial", "plugin", "extension",
     "archive", "script", "secret", "program", "source",
-    "discovery", "solver", "lint", "beautifier"
+    "discovery", "solver", "lint", "beautifier",
+    "bootstrap","interperter","compiler","error-checker",
+    "reddit","twitter","youtube","calculator","malware",
+    "injector","live", "preview", "template", "converter",
+    "protocol","database","instance","messager","forwarder",
+    "downloader","frontend", "backend"
 ];
 
 function generate() {

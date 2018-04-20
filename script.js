@@ -28,7 +28,8 @@ var secondlevel = [
     "management", "giggle", "story",
     "journey", "royale", "exploit", "guide",
     "ebook", "tutorial", "plugin", "extension",
-    "archive", "script", "secret", "program", "source"
+    "archive", "script", "secret", "program", "source",
+    "discovery", "solver", "lint"
 ];
 
 function generate() {

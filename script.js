@@ -13,6 +13,7 @@ var firstlevel = [
     "tcp", "udp", "minecraft", "java", "lua", "excessive",
     "sad", "happy", "unity", "gamemaker", "interactive", "sleepy",
     "murderous", "grumpy", "keymash", "random","swift","applescript","ios"
+    "awesome", "php", "sql", "mysql"
 ];
 
 var secondlevel = [
@@ -29,7 +30,7 @@ var secondlevel = [
     "journey", "royale", "exploit", "guide",
     "ebook", "tutorial", "plugin", "extension",
     "archive", "script", "secret", "program", "source",
-    "discovery", "solver", "lint"
+    "discovery", "solver", "lint", "beautifier"
 ];
 
 function generate() {

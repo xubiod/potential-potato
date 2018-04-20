@@ -36,7 +36,11 @@ function generate() {
 
     document.getElementById("generated").innerHTML = generated_con;
 
-    document.getElementById("old").innerHTML += generated_con + ", ";
+    if (generated_con == "potential-potato") {
+        document.getElementById("old").innerHTML += "<span style='background-color: yellow'>" + generated_con + "</span>, ";
+    } else {
+        document.getElementById("old").innerHTML += generated_con + ", ";
+    }
 }
 
 function generate_spam(amt) {

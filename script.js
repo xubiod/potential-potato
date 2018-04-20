@@ -37,7 +37,7 @@ function generate() {
     document.getElementById("generated").innerHTML = generated_con;
 
     if (generated_con == "potential-potato") {
-        document.getElementById("old").innerHTML += "<span style='background-color: yellow; text-color: black;'>" + generated_con + "</span>, ";
+        document.getElementById("old").innerHTML += "<span style='background-color: yellow; color: black;'>" + generated_con + "</span>, ";
     } else {
         document.getElementById("old").innerHTML += generated_con + ", ";
     }

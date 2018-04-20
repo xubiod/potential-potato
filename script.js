@@ -19,7 +19,7 @@ var firstlevel = [
     "awesome", "php", "sql", "mysql", "pug", "postcss", "xml", "json", "offline",
     "crazy", "wacky","colorful","rest","linux","apache2","imageboard",
     "video", "macos","windows","kernel","tubular","shell","command",
-    "voice", "method","class"
+    "voice", "method","class","ssh","ftp","http","https"
 ];
 
 var secondlevel = [
@@ -41,7 +41,8 @@ var secondlevel = [
     "reddit","twitter","youtube","calculator","malware",
     "injector","live", "preview", "template", "converter",
     "protocol","database","instance","messager","forwarder",
-    "downloader","frontend", "backend"
+    "downloader","frontend", "backend","client","server",
+    "module"
 ];
 
 function generate() {

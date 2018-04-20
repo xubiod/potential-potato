@@ -1,6 +1,9 @@
 //data from refreshing https://github.com/new an unhealthy amount of times
 //some data was just made up
 
+var _gen = 0;
+var _pp = 0;
+
 var firstlevel = [
     "refactored", "potential",
     "urban", "sturdy", "literate",
@@ -46,11 +49,16 @@ function generate() {
 
     document.getElementById("generated").innerHTML = generated_con;
 
+    _gen++;
+    
     if (generated_con == "potential-potato") {
         document.getElementById("old").innerHTML += "<span style='background-color: yellow; color: black;'>" + generated_con + "</span>, ";
+        _pp++;
     } else {
         document.getElementById("old").innerHTML += generated_con + ", ";
     }
+    
+    document.getElementById("counter").innerHTML = _gen + " names have been generated. " + _pp + " so far have been potential-potato.";
 }
 
 function generate_spam(amt) {

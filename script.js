@@ -43,13 +43,13 @@ var secondlevel = [
 
 var before = [
     "compressed", "minified", "encoded",
-    "obfuscated", "decompiled"
+    "obfuscated", "decompiled", "dead"
 ];
 
 var after = [
     "plus", "modified", "repo", "sourcecode",
     "in-development", "quiet", "quieter", "app",
-    "console-app", "web-app"
+    "console-app", "web-app", "rewritten"
 ];
 
 function generate() {

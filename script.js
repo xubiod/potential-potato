@@ -43,7 +43,7 @@ var secondlevel = [
 
 var before = [
     "compressed", "minified", "encoded",
-    "obfuscated", "decompiled", "dead"
+    "obfuscated", "decompiled", "dead", "unnecessary"
 ];
 
 var after = [

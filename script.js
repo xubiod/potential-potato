@@ -19,7 +19,7 @@ var firstlevel = [
     "awesome", "php", "sql", "mysql", "pug", "postcss", "xml", "json", "offline",
     "crazy", "wacky", "colorful", "rest", "linux", "apache2", "imageboard",
     "video", "macos", "windows", "kernel", "tubular", "shell", "command",
-    "voice", "method", "class", "ssh", "ftp", "http", "https"
+    "voice", "method", "class", "ssh", "ftp", "http", "https", "automated"
 ];
 
 var secondlevel = [
@@ -43,7 +43,8 @@ var secondlevel = [
 
 var before = [
     "compressed", "minified", "encoded",
-    "obfuscated", "decompiled", "dead", "unnecessary"
+    "obfuscated", "decompiled", "dead", "unnecessary",
+    "uncommented", "commented", "heavily-commented"
 ];
 
 var after = [

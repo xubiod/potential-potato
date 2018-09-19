@@ -82,8 +82,8 @@ function generate_spam(amt) {
 }
 
 function firstload() {
-    document.getElementById("amount-can").innerHTML = "(" + updatePossibilities() + " possibilites)";
-    document.getElementById("genAll").innerHTML = "make " + updatePossibilities() + " (lags)";
+    document.getElementById("amount-can").innerHTML = "(" + updatePossibilities() + " possibilites. <sub><sub>and a " + ((1/(firstlevel.length * secondlevel.length))*100) + "% chance for potential potato</sub></sub>)";
+    //document.getElementById("genAll").innerHTML = "make " + updatePossibilities() + " (lags)";
 }
 
 function updatePossibilities() {
